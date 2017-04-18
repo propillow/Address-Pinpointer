@@ -1,3 +1,5 @@
+<!--Address Pinpointer using Google Maps API - Wilson Shum-->
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -19,16 +21,14 @@
 
 <body>
 <div>
+
 <h1> Address Pinpointer</h1>
 Address: <input type = "text" id = "address">
 <input type="submit" value="->" id = "Submit">
-    <div id = "googleMap" height = "100%" width = "100%"></div>
+<div id = "googleMap" height = "100%" width = "100%"></div>
 
 </div>
-
-
 </body>
-
 
 <script>
 
@@ -43,7 +43,6 @@ Address: <input type = "text" id = "address">
                 zoom: 10,
             };
             map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
-
 
         }
 
@@ -61,8 +60,7 @@ Address: <input type = "text" id = "address">
     $("#Submit").click(function(){
 
         var address = $("#address").val();
-        //alert(address);
-
+        //console.log(address);
 
         GeoCoder.geocode( { 'address': address }, function(results, status) {
             if (status == 'OK') {
@@ -80,8 +78,5 @@ Address: <input type = "text" id = "address">
 
     });
 
-
-
 </script>
-
 </html>
