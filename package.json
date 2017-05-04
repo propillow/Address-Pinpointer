@@ -1,0 +1,22 @@
+{
+  "name": "pinpoint",
+  "version": "1.0.0",
+  "description": "Address Pinpoint Practice using Google API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/propillow/Address-Pinpointer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/propillow/Address-Pinpointer/issues"
+  },
+  "homepage": "https://github.com/propillow/Address-Pinpointer#readme",
+  "dependencies": {
+    "handlebars": "^4.0.8"
+  }
+}
