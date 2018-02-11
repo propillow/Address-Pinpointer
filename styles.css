@@ -1,0 +1,15 @@
+
+html, body, #googleMap{height : 500px; margin: 50px; padding: 0; text-align: center;}
+
+div{
+    height: 500px;
+}
+
+h1{
+    color: blue;
+}
+
+text{
+    color:black;
+    font-style: normal;
+}
